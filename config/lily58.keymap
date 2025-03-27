@@ -19,18 +19,28 @@
         compatible = "zmk,combos";
 
         test1 {
-            bindings = <&kp K_COPY>;
+            bindings = <&mt LEFT_CONTROL C>;
             key-positions = <50 39>;
         };
 
         cut {
-            bindings = <&kp K_CUT>;
+            bindings = <&mt LEFT_CONTROL X>;
             key-positions = <50 38>;
         };
 
         paste {
-            bindings = <&kp K_PASTE>;
+            bindings = <&mt LEFT_CONTROL V>;
             key-positions = <50 40>;
+        };
+
+        Volup {
+            bindings = <&kp K_VOLUME_UP>;
+            key-positions = <41 50>;
+        };
+
+        Voldn {
+            bindings = <&kp K_VOLUME_DOWN>;
+            key-positions = <50 29>;
         };
     };
 
