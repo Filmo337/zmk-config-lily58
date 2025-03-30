@@ -21,26 +21,31 @@
         test1 {
             bindings = <&mt LEFT_CONTROL C>;
             key-positions = <39 42>;
+            layers = <0>;
         };
 
         cut {
             bindings = <&mt LEFT_CONTROL X>;
             key-positions = <38 42>;
+            layers = <0>;
         };
 
         paste {
             bindings = <&mt LEFT_CONTROL V>;
             key-positions = <40 42>;
+            layers = <0>;
         };
 
         Volup {
             bindings = <&kp K_VOLUME_UP>;
             key-positions = <41 42>;
+            layers = <0>;
         };
 
         Voldn {
             bindings = <&kp K_VOLUME_DOWN>;
             key-positions = <29 42>;
+            layers = <0>;
         };
     };
 
